@@ -3,7 +3,7 @@
   "private": true,
   "description": "A simple starter to get up and developing quickly with Gatsby",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Joseph Edmed, Cylic Vaidya",
   "dependencies": {
     "gatsby": "^2.13.57",
     "gatsby-image": "^2.2.8",
@@ -19,6 +19,7 @@
     "react-helmet": "^5.2.1"
   },
   "devDependencies": {
+    "eslint-config-react-app": "^5.0.0",
     "prettier": "^1.18.2"
   },
   "keywords": [
