@@ -11,6 +11,7 @@ const HeaderSection = ({ siteTitle }) => (
       <Heading>
         <StyledLink to="/">{siteTitle}</StyledLink>
       </Heading>
+      <img src="/public/icons/logo.jpg" />
     </Container>
   </Header>
 )
