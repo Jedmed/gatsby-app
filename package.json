@@ -5,6 +5,7 @@
   "version": "0.1.0",
   "author": "Joseph Edmed, Cylic Vaidya",
   "dependencies": {
+    "antd": "^3.21.4",
     "gatsby": "^2.13.57",
     "gatsby-image": "^2.2.8",
     "gatsby-plugin-manifest": "^2.2.5",
