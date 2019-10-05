@@ -1,9 +1,9 @@
-import React from "react"
-import PropTypes from "prop-types"
+import React from 'react'
+import PropTypes from 'prop-types'
 
-import { Heading } from "generic"
+import { Heading } from 'components/common/generic'
 
-import { Header, Container, StyledLink } from "./styles"
+import { Header, Container, StyledLink } from './styles'
 
 const HeaderSection = ({ siteTitle }) => (
   <Header>
@@ -11,16 +11,16 @@ const HeaderSection = ({ siteTitle }) => (
       <Heading>
         <StyledLink to="/">{siteTitle}</StyledLink>
       </Heading>
-      <img src="/public/icons/logo.jpg" />
+      <img src="/public/icons/logo.jpg" alt="logo" />
     </Container>
   </Header>
 )
 
-Header.propTypes = {
+HeaderSection.propTypes = {
   siteTitle: PropTypes.string,
 }
 
-Header.defaultProps = {
+HeaderSection.defaultProps = {
   siteTitle: ``,
 }
 
