@@ -1,5 +1,5 @@
-import { Link } from "gatsby"
-import styled from "styled-components"
+import { Link } from 'gatsby'
+import styled from 'styled-components'
 
 export const Header = styled.header`
   background: rebeccapurple;
@@ -13,6 +13,6 @@ export const Container = styled.div`
 `
 
 export const StyledLink = styled(Link)`
-  color: ${props => props.color || "white"};
+  color: ${props => props.color || 'white'};
   text-decoration: none;
 `

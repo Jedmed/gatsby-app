@@ -13,16 +13,16 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
-    "gatsby-plugin-root-import",
+    'gatsby-plugin-root-import',
     {
-      resolve: "gatsby-plugin-root-import",
+      resolve: 'gatsby-plugin-root-import',
       options: {
-        src: `${__dirname}/src`,
+        components: `${__dirname}/src/components`,
         pages: `${__dirname}/src/pages`,
-        generic: `${__dirname}/src/components/common/generic`,
+        common: `${__dirname}/src/components/common`,
       },
     },
-    `gatsby-transformer-sharp`,
+    'gatsby-transformer-sharp',
     `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-manifest`,
