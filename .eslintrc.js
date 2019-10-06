@@ -27,5 +27,6 @@ module.exports = {
     'react/jsx-tag-spacing': 'off',
     'react/jsx-wrap-multilines': 'off',
     'import/prefer-default-export': 'off',
+    'react/jsx-fragments': 'off',
   },
 }

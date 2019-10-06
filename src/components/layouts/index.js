@@ -5,16 +5,15 @@
  * See: https://www.gatsbyjs.org/docs/use-static-query/
  */
 
-import React from 'react'
+import React, { Fragment } from 'react'
 import PropTypes from 'prop-types'
 import { useStaticQuery, graphql } from 'gatsby'
 
 import HeaderSection from './header'
-import './main.css'
 import { Container } from './styles'
 
 const Layout = ({ children }) => {
-  const data = useStaticQuery(graphql`
+  const { title } = useStaticQuery(graphql`
     query SiteTitleQuery {
       site {
         siteMetadata {
@@ -25,8 +24,8 @@ const Layout = ({ children }) => {
   `)
 
   return (
-    <>
-      <HeaderSection siteTitle={data.site.siteMetadata.title} />
+    <Fragment>
+      <HeaderSection siteTitle={title} />
       <Container>
         <main>{children}</main>
         <footer>
@@ -34,7 +33,7 @@ const Layout = ({ children }) => {
           <a href="https://www.gatsbyjs.org">Gatsby</a>
         </footer>
       </Container>
-    </>
+    </Fragment>
   )
 }
 
