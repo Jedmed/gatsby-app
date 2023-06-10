@@ -6,7 +6,7 @@
   "author": "Joseph Edmed, Cylic Vaidya",
   "dependencies": {
     "antd": "^3.21.4",
-    "gatsby": "^2.13.57",
+    "gatsby": "^4.25.7",
     "gatsby-image": "^2.2.8",
     "gatsby-plugin-manifest": "^2.2.5",
     "gatsby-plugin-offline": "^2.2.5",
